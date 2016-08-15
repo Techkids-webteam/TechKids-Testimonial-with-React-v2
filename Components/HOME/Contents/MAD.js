@@ -49,7 +49,7 @@ export default class Introduction extends React.Component{
             <div className="row">
               <div className="col-sm-3">
                 <p className="polygon_shape">
-                  Mobile apps development (MAD)
+                    Mobile apps development (MAD)
                 </p>
               </div>
               <div className='col-sm-9'>
