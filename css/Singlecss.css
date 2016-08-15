@@ -1,0 +1,246 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*#single .ilat_content_block{
+  padding: 30px 0;
+}
+#single #header{
+  background: #ffffff;
+  border: 1px solid #a1a1a1;
+  border-radius: 0;
+}
+#single .navbar-brand{
+  padding: 12px 0 8px 15px;
+  line-height: 44px;
+}
+#single .navbar-brand img{
+  max-height: 31px;
+  width: auto;
+}
+#single #header_nav{
+  text-align: right;
+}
+#single .header_list li a{
+  font-size: 2rem;
+  color: #000000;
+  text-align: left;
+  font-weight: 300;
+}
+#single .header_dropdown_list li Link{
+  font-size: 1.8rem;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#single .header_dropdown_list li a:hover{
+  color: #beb7b7;
+}*/
+#single .navbar{
+    margin-bottom: 0px;
+}
+
+#single .navbar-header img{
+    max-width: 50%;
+    margin-top: 2%;
+}
+
+#single .dropdown:hover .dropdown-menu>li a:hover{
+    background-color: #02BBE9;
+}
+
+#single .navbar-default{
+    border-color: white;
+    background-color: white;
+}
+
+#single .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    padding-right: 6%;
+    font-size: 140%;
+}
+
+#single .navbar-default .navbar-nav>li>a:hover{
+    text-decoration: none;
+    color: #02BBE9;
+    background-color: auto;
+}
+
+#single .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: white;
+    color: #02BBE9;
+}
+
+#single .dropdown-menu{
+    font-size: large;
+}
+
+#single .img_background{
+    background: cover;
+}
+
+
+#single .background-image{
+  background-image: url("../img/single_banner.jpg");
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#single .content-container{
+  padding:50px 100px 20px;
+}
+
+#single .profie-pic{
+  float: right;
+  margin:0px 0px 15px 15px;
+  width: 400px;
+  height: 200px;
+  clear: right;
+}
+
+#single .course_picture{
+  width: 400px;
+  height: 180px;
+  margin: 20px 25px;
+}
+
+#single .title{
+  font-weight: 700;
+}
+
+#single .course-info{
+  display: block;
+}
+
+#single .register-btn{
+  background-color: #f05c1e;
+  color: #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  width: 160px;
+}
+
+#single .about_us{
+    background-color: #00b3f6;
+    height: 35%;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+#single .about_us p{
+    font-style: oblique;
+    font-size: inherit;
+
+}
+
+#single .find_us{
+    background-image: url('/images/background3.jpg');
+    background-repeat: no-repeat;
+    color: #f8f8f8;
+    height: 69vh;
+    text-align: center;
+    background-size: cover;
+}
+
+#single .find_us .title{
+    text-align: center;
+    font-size: 1.4em;
+    float: none;
+    padding-top: 100px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    padding-bottom: 8px;
+}
+
+
+#single .find_us .sub_title {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 11px;;
+}
+
+#single .find_us button{
+    background-color: #F05C1E;
+    color: #f8f8f8;
+    border-radius: 6px;
+    border: 0px;
+    font-weight: 700;
+    height: 45px;
+    width: 200px;
+}
+
+#single .find_us .title:before{
+    content: "";
+    border-top: 1px solid #F05C1E;
+    transform: translateY(50%);
+    position: relative;
+    display: table-cell;
+    width: 48%;
+}
+
+#single .polygon_shape {
+  width: 235px;
+  height: 150px;
+  text-align: center;
+  margin-top: 60px;
+  padding-right: 40px;
+  padding-top: 30px;
+  background: url(/images/Polygon_1.png);
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#single .item {
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 30px;
+  margin-bottom: 45px;
+  height: 255px;
+  width: 175px;
+}
+
+#single .profile_img{
+  padding-left: 8px;
+}
+#single footer.footer{
+	font-size: 1.4rem;
+	background-color: #ffffff;;
+  color: #000000;
+	/*padding-top: 840px;
+	padding-bottom: 120px;
+	padding-top: 100px;*/
+}
+
+#single .footer_logo{
+    margin: 15px 0;
+}
+
+#single .footer h5{
+	font-size: 1.8rem;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+#single .footer ul{
+	padding-left: 20px;
+}
+
+#single .footer .socials_list{
+    font-size: 2.3rem;
+}
+
+#single .socials_list a:hover, .socials_list a:focus {
+    color: #000;
+    text-decoration: none;
+}
+#single .socials_list a {
+    color: #333;
+}
