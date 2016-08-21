@@ -36,14 +36,14 @@ export default class CourseInfo extends React.Component{
         <div className='course-info'>
           <div className="course-info">
           <div className="col-md-8 col-xs-12">
-            <h2 dangerouslySetInnerHTML={this.rawMarkup(comment.Course-name)}>
+            <h2 dangerouslySetInnerHTML={this.rawMarkup(comment.Name)}>
             </h2>
             <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}>
             </p>
             <button type="button" name="button" class="btn register-btn">TÌM HIỂU NGAY</button>
           </div>
           <div className="col-md-4 col-xs-6">
-            <img src={comment.Picture} className='course_picture'/>
+            <img src={comment.Profie_Pic} className='course_picture'/>
           </div>
         </div>
         </div>

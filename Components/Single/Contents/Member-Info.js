@@ -31,8 +31,8 @@ export default class MemberInfo extends React.Component{
     var Comments = this.state.data.map((comment)=>{
     return(
         <div key ={comment.id}>
-          <img src={comment.Profie_Pic} className="profie-pic"/>
-          <h2 dangerouslySetInnerHTML={this.rawMarkup(comment.Title)}></h2>
+          <img src={comment.Picture} className="profie-pic"/>
+          <h2 dangerouslySetInnerHTML={this.rawMarkup(comment.Course_name)}></h2>
           <p dangerouslySetInnerHTML={this.rawMarkup(comment.Content)}></p>
         </div>
       )

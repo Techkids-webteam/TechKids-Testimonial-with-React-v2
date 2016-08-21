@@ -1,5 +1,5 @@
 import React from "react";
-import { IndexLink, Link, withRouter } from "react-router";
+import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
 export default class Introduction extends React.Component{
     constructor() {
@@ -11,7 +11,6 @@ export default class Introduction extends React.Component{
     componentDidMount() {
       $.ajax({
         url: './json/jsonHome/MAD.json',
-        // dataType: 'json',
         cache: false,
         success: function(res){
           console.log(res);

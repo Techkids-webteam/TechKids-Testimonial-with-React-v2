@@ -1,7 +1,13 @@
 [
 	{
 		"id":"1",
-		"Course-name":"Khóa học Lập trình Web Fullstack",
+		"Course_name":"Khóa học Lập trình Web Fullstack",
+		"Content":"Học lập trình web fullstack từ Front-end, Back-end web bằng công nghệ NodeJS mới nhất",
+		"Picture": "../images/fullstack.png"
+	},
+	{
+		"id":"2",
+		"Course_name":"Khóa học Lập trình Web Fullstack",
 		"Content":"Học lập trình web fullstack từ Front-end, Back-end web bằng công nghệ NodeJS mới nhất",
 		"Picture": "../images/fullstack.png"
 	}

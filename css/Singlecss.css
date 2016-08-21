@@ -7,40 +7,6 @@
 html{
   font-family: 'Source Sans Pro', sans-serif;
 }
-/*#single .ilat_content_block{
-  padding: 30px 0;
-}
-#single #header{
-  background: #ffffff;
-  border: 1px solid #a1a1a1;
-  border-radius: 0;
-}
-#single .navbar-brand{
-  padding: 12px 0 8px 15px;
-  line-height: 44px;
-}
-#single .navbar-brand img{
-  max-height: 31px;
-  width: auto;
-}
-#single #header_nav{
-  text-align: right;
-}
-#single .header_list li a{
-  font-size: 2rem;
-  color: #000000;
-  text-align: left;
-  font-weight: 300;
-}
-#single .header_dropdown_list li Link{
-  font-size: 1.8rem;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-#single .header_dropdown_list li a:hover{
-  color: #beb7b7;
-}*/
 #single .navbar{
     margin-bottom: 0px;
 }
